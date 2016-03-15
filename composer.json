@@ -1,0 +1,21 @@
+{
+    "name": "aivanouski/amazon-mws-orders",
+    "type": "library",
+    "description": "Amazon Marketplace Web Service Orders PHP Client Library Version 2013-09-01",
+    "keywords": ["amazon", "mws", "orders", "client", "api", "library"],
+    "licence": "Apache-2.0",
+    "authors": [
+        {
+          "name": "Andrei Ivanouski",
+          "email": "aivanouski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "include-path": ["src/"]
+}
