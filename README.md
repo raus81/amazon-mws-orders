@@ -7,7 +7,7 @@ Installation
 
 Install [Composer](http://getcomposer.org/) and add amazon-mws-orders to your `composer.json`:
 
-    composer require aivanouski/amazon-mws-orders
+    composer require aivanouski/amazon-mws-orders:dev-master
 
 Version
 -------
@@ -17,10 +17,12 @@ Current version is `MWSOrdersPHPClientLibrary-2013-09-01._V293335039_`.
 Installation
 ----------
 Add the reference into your composer.json : 
-
+```
     "aivanouski/amazon-mws-orders": "dev-master"
 	composer update
+```
 
+```
 Use in controller :
 
  $config = array (
@@ -43,3 +45,4 @@ Use in controller :
  $request->setSellerId(MERCHANT_ID);
  
  $response = $service->ListOrders($request);
+ ```
