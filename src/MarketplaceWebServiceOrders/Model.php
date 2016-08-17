@@ -275,7 +275,9 @@ abstract class MarketplaceWebServiceOrders_Model
             // Primitive
             if ($fieldValue!==null && $fieldValue!=="") {
                 if ($fieldType=='bool') {
-                    $fieldValue = ($fieldValue)?'true':'false';
+                    if (is_bool($fieldValue)) {
+                        $fieldValue = ($fieldValue) ? 'true' : 'false';
+                    }
                 }
                 $arr[rtrim($prefix, '.')] = $fieldValue;
             }
