@@ -1,13 +1,13 @@
 {
-    "name": "aivanouski/amazon-mws-orders",
+    "name": "raus81/amazon-mws-orders",
     "type": "library",
     "description": "Amazon Marketplace Web Service Orders PHP Client Library Version 2013-09-01",
     "keywords": ["amazon", "mws", "orders", "client", "api", "library"],
     "licence": "Apache-2.0",
     "authors": [
         {
-          "name": "Andrei Ivanouski",
-          "email": "aivanouski@gmail.com"
+          "name": "Federico Cristiani",
+          "email": "federico.cristiani@gmail.com"
         }
     ],
     "require": {
